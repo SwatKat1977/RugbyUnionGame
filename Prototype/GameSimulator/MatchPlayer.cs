@@ -1,0 +1,6 @@
+﻿namespace Prototype
+{
+    namespace GameSimulator
+    {
+    }
+}
