@@ -28,6 +28,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="GameSimulator\FieldPosition.cs" />
+    <Compile Include="GameSimulator\MatchPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GameSimulator\" />
