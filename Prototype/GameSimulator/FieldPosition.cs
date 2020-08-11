@@ -2,7 +2,7 @@
 {
     namespace GameSimulator
     {
-        public enum PlayerPosition
+        public enum FieldPosition
         {
             /// <summary>
             /// The loose-head and tight-head props make up what is known as the
