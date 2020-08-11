@@ -27,6 +27,7 @@
   <ItemGroup>
     <Compile Include="Player.cs" />
     <Compile Include="Position.cs" />
+    <Compile Include="GameSimulator\PlayerPosition.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
