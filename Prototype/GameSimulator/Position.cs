@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Prototype
+﻿namespace SimulatorEngine
 {
     public class Position
     {
