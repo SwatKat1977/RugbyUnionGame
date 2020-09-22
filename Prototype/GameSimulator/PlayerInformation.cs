@@ -1,15 +1,14 @@
-﻿namespace Prototype.GameSimulator
+﻿namespace SimulatorEngine
 {
     public class PlayerInformation
     {
-        public string Id { get; private set; }
+        public int Id { get; private set; }
 
         public string Name { get; private set; }
 
-        public string TeamId { get; private set; }
+        public int TeamId { get; private set; }
 
-
-        public PlayerInformation(string id, string name, string team = null)
+        public PlayerInformation(int id, string name, int team = -1)
         {
             Id = id;
             Name = name;
