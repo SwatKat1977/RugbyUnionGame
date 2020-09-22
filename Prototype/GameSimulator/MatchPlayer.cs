@@ -4,16 +4,21 @@
     {
         public class MatchPlayer
         {
-            public Player PlayerEntry { get; private set; }
-            public GameSide Side { get; private set; }
+            /// <summary>Player details.</summary>
+            public Player PlayerDetails { get; private set; }
 
-            public Position FieldPosition { get; set; }
+            /// <summary>Position of player during kick off.</summary>
+            public FieldPosition KickoffPosition { get; set; }
 
-            public MatchPlayer(Player player, GameSide side, Position position)
+            /// <summary>Current position of player during match.</summary>
+            public Position CurrentPosition { get; set; }
+
+            public MatchPlayer(Player player,
+                FieldPosition initialFieldPosition)
             {
-                PlayerEntry = player;
-                Side = side;
-                FieldPosition = position;
+                PlayerDetails = player;
+                KickoffPosition = initialFieldPosition;
+                CurrentPosition = new
             }
         }
     }
