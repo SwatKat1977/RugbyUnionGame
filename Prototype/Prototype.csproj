@@ -31,6 +31,7 @@
     <Compile Include="GameSimulator\MatchPlayer.cs" />
     <Compile Include="GameSimulator\Team.cs" />
     <Compile Include="GameSimulator\PlayerInformation.cs" />
+    <Compile Include="GameSimulator\Match.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GameSimulator\" />
