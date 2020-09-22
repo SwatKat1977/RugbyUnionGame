@@ -1,25 +1,18 @@
-﻿namespace Prototype
+﻿namespace SimulatorEngine
 {
-    namespace GameSimulator
+    public class PlayerGameState
     {
-        public class MatchPlayer
+        /// <summary>Player id.</summary>
+        public int PlayerId { get; private set; }
+
+        /// <summary>Position of player during kick off.</summary>
+        public FieldPosition KickoffPosition { get; set; }
+
+        public PlayerGameState(int playerId,
+                               FieldPosition initialFieldPosition)
         {
-            /// <summary>Player details.</summary>
-            public Player PlayerDetails { get; private set; }
-
-            /// <summary>Position of player during kick off.</summary>
-            public FieldPosition KickoffPosition { get; set; }
-
-            /// <summary>Current position of player during match.</summary>
-            public Position CurrentPosition { get; set; }
-
-            public MatchPlayer(Player player,
-                FieldPosition initialFieldPosition)
-            {
-                PlayerDetails = player;
-                KickoffPosition = initialFieldPosition;
-                CurrentPosition = new
-            }
+            PlayerId = playerId;
+            KickoffPosition = initialFieldPosition;
         }
     }
 }

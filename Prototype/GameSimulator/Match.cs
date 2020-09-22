@@ -1,10 +1,20 @@
-﻿using System;
-namespace Prototype.GameSimulator
+﻿namespace SimulatorEngine
 {
-    public class Game
+    public class Match
     {
-        public Game()
+        // List<MatchPlayer> players;
+
+        public Match()
         {
+            // players = new List<MatchPlayer>();
+        }
+
+        public void AddSide(RugbyTeam team, GameSide side)
+        {
+            // foreach(Player p in team.Team)
+            {
+                // players.Add(new MatchPlayer(p, side));
+            }
         }
     }
 }
