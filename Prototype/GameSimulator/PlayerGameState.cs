@@ -8,11 +8,15 @@
         /// <summary>Position of player during kick off.</summary>
         public FieldPosition KickoffPosition { get; set; }
 
+        public int Heading { get; private set; }
+
         public PlayerGameState(int playerId,
-                               FieldPosition initialFieldPosition)
+                               FieldPosition initialFieldPosition,
+                               int heading)
         {
             PlayerId = playerId;
             KickoffPosition = initialFieldPosition;
+            Heading = heading;
         }
     }
 }
