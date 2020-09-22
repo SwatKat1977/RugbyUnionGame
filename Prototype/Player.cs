@@ -4,12 +4,6 @@ using SimulatorEngine;
 
 namespace Prototype
 {
-    public enum GameSide
-    {
-        LeftSide,
-        RightSide
-    }
-
     public class Player
     {
         public FieldPosition CurrentFieldPosition { get; set; }
@@ -49,7 +43,7 @@ namespace Prototype
             var angusIrwin = new PlayerInformation(3, "Angus Irwin", 2);
             var jasperRhodes = new PlayerInformation(4, "Jasper Rhodes", 2);
 
-            Game game = new Game();
+            Match match = new Match();
 
             Player p1 = new Player();
             Player p2 = new Player();

@@ -1,5 +1,11 @@
 ﻿namespace SimulatorEngine
 {
+    public enum GameSide
+    {
+        LeftSide,
+        RightSide
+    }
+
     public class Match
     {
         // List<MatchPlayer> players;

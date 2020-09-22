@@ -28,10 +28,10 @@
     <Compile Include="Player.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="GameSimulator\FieldPosition.cs" />
-    <Compile Include="GameSimulator\MatchPlayer.cs" />
     <Compile Include="GameSimulator\Team.cs" />
     <Compile Include="GameSimulator\PlayerInformation.cs" />
     <Compile Include="GameSimulator\Match.cs" />
+    <Compile Include="GameSimulator\PlayerGameState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GameSimulator\" />
