@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Prototype</RootNamespace>
     <AssemblyName>Prototype</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,6 +32,7 @@
     <Compile Include="GameSimulator\PlayerGameState.cs" />
     <Compile Include="GameSimulator\Position.cs" />
     <Compile Include="GameSimulator\TeamInformation.cs" />
+    <Compile Include="GameSimulator\MatchDayTeam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GameSimulator\" />
