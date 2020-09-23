@@ -1,4 +1,4 @@
-﻿namespace SimulatorEngine
+﻿namespace SimulationEngine
 {
     public class TeamInformation
     {
