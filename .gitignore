@@ -1,0 +1,7 @@
+# Mac directory file.
+**/.DS_Store
+
+# Visual Studio temporary files
+**/.vs
+**/bin
+**/obj
