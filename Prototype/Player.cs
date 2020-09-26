@@ -1,6 +1,5 @@
 ﻿using System;
 using SimulationEngine;
-using SimulatorEngine;
 
 namespace Prototype
 {
@@ -31,6 +30,9 @@ namespace Prototype
             right.AddPlayer(4, FieldPosition.ScrumHalf);
 
             match.AddSide(right, GameSide.RightSide);
+
+            match.Test();
+            match.Test();
         }
     }
 }
