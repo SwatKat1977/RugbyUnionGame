@@ -20,13 +20,13 @@ namespace Prototype
             Match match = new Match();
 
             MatchDayTeam left = new MatchDayTeam();
-            left.AddPlayer(1, FieldPosition.Centre);
-            left.AddPlayer(2, FieldPosition.Hooker);
+            left.AddPlayer(1, FieldPosition.FlyHalf);
+            left.AddPlayer(2, FieldPosition.Number8);
 
             match.AddSide(left, GameSide.LeftSide);
 
             MatchDayTeam right = new MatchDayTeam();
-            right.AddPlayer(3, FieldPosition.Prop);
+            right.AddPlayer(3, FieldPosition.BlindsideFlanker);
             right.AddPlayer(4, FieldPosition.ScrumHalf);
 
             match.AddSide(right, GameSide.RightSide);
